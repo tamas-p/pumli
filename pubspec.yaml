@@ -1,6 +1,6 @@
 name: pumli
 description: PlantUML interface for Dart. Provides easy PlantUML diagram conversion from dart.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/tamas-p/pumli
 repository: https://github.com/tamas-p/pumli
 

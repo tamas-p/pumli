@@ -43,7 +43,7 @@ final svg = await PumliREST(serviceURL: PumliREST.plantUmlUrl).getSVG(simpleMode
 
 and the SVG generated:
 
-![Alt hello.svg](./resources/hello.svg)
+![Alt hello.svg](https://github.com/tamas-p/pumli/blob/main/resources/hello.svg?raw=true)
 
 ## Getting started
 

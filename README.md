@@ -14,7 +14,7 @@ and the Flutter guide for
 PlantUML interface for Dart.
 
 Allows easy conversion of diagrams in PlantUML (see https://plantuml.com) text format to various
-output formats with the help of PlantUML tools directly from dart.
+output formats with the help of PlantUML tools, directly from dart.
 
 Tested on Ubuntu 20.04LTS, but it is expected to work on other Operating Systems as well.
 
@@ -47,7 +47,7 @@ and the SVG generated:
 
 ## Getting started
 
-The easiest to start with the package to use an already available PlantUML rendering service like the public one at https://www.plantuml.com/plantuml if you are comfortable with sending your data over the internet and you do not mind the slight performance impact of a remote renderer. This allows you to start right away with PumliREST (no need to install PlantUML).
+The easiest to start with the package to use an already available PlantUML rendering service like the public one at https://www.plantuml.com/plantuml if you are comfortable with sending your diagrams over the internet to a public server and you do not mind the slight performance impact of a remote renderer. This allows you to start right away with PumliREST (no need to install PlantUML).
 
 In case you want to use either your own lightweight PlantUML renderer service (recommended for performance and security) or the plantuml command line tool for conversion, you need the plantuml tool to be installed onto your system. See https://plantuml.com/starting for details. As you will see PlantUML requires GraphViz (https://plantuml.com/graphviz-dot) for its operation. Nevertheless, on Ubuntu installation is as simple as
 
@@ -75,7 +75,7 @@ stop
 > const rawString = r'demo\n';
 > ```
 
-### Convert it with the public PlatUML rendering service
+### Convert it with the public PlantUML rendering service
 
 ```dart
 final pumliREST = PumliREST(serviceURL: PumliREST.plantUmlUrl);

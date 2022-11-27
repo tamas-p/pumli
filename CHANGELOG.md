@@ -1,3 +1,7 @@
+## 0.1.3
+
+- License formatting fixed.
+
 ## 0.1.2
 
 - Small README.md fixes: typo and some wording.

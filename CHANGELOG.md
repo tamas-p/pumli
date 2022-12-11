@@ -1,3 +1,7 @@
+## 0.1.4
+
+- Added link to Pumli GitHub discussions in README.md.
+
 ## 0.1.3
 
 - License formatting fixed.

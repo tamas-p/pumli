@@ -132,4 +132,4 @@ PumliServer constructor includes three parameters to customize its behavior: `po
 
 ## Additional information
 
-...
+If you have any questions, comments please go to [Pumli GitHub Discussions](https://github.com/tamas-p/pumli/discussions) to start or join discussions.

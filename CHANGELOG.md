@@ -1,3 +1,7 @@
+## 0.1.5
+
+- docs: Added WARNING related to picoweb feature availability.
+
 ## 0.1.4
 
 - Added link to Pumli GitHub discussions in README.md.

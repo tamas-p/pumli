@@ -55,6 +55,22 @@ In case you want to use either your own lightweight PlantUML renderer service (r
 $sudo apt install plantuml
 ```
 
+> **_WARNING_**
+> In order to use the picoweb feature of PlantUML you have to have PlantUML
+> V1.2020.19 (12 Oct, 2020) or newer installed.
+>
+> Unfortunately even Ubuntu 22.04 does not include such a version from apt (it only
+> provides V1.2020.02), that means on Ubuntu you have to either
+> manually copy a more up-to-date version to replace the plantuml.jar that comes with the package
+> or simply just use the downloaded jar directly (as described in the _If you only have the
+> PlantUML jar available_ section bellow).
+> You might face the same issue with the default PlantUML package distributed by other
+> operating systems or distributions.
+>
+> I would suggest using [V1.2022.1](https://sourceforge.net/projects/plantuml/files/1.2022.1/)
+> (1 Feb, 2022) as later versions include a bug related to HyperlinkUnderline skinParam feature you
+> might plan to use ([see issue #1241](https://github.com/plantuml/plantuml/issues/1241)).
+
 ## Usage
 
 We are going to convert the simple diagram that was already used above to SVG format:
